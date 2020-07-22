@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="818f77c8-400d-425c-bdb2-9f80660ca56b" name="study" url="http://articles.uz">
+        <fileTransfer host="articles.uz" port="21" rootFolder="/domains/nammedical.articles.uz/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="36f0ae4b-2f5b-4dab-b348-755811b9aa4d" name="ost" url="http://articles.uz">
+        <fileTransfer host="articles.uz" port="21" rootFolder="/domains/ostnews.articles.uz/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="78182cab-4f51-4f5d-9d9b-cd4545c1a9c8" name="articcls" url="http://217.30.175.101">
+        <fileTransfer host="217.30.175.101" port="2202" rootFolder="/home/one/avtostart/test" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2202" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="50cc1ca6-b165-4ac2-bb8d-74a0a4f9ce84" name="darkuz.ru" url="http://darkuz.ru">
+        <fileTransfer host="darkuz.ru" port="21" rootFolder="/www/darkuz.ru">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="fdbf7b4a-1d2d-4514-b46e-2436b1d1fc1c" name="vatanparvar" url="http://vatanparvar.uz">
+        <fileTransfer host="vatanparvar.uz" port="21" rootFolder="/httpdocs">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="452db378-1b12-49a1-a2c8-2b899e5244a8" name="web4.webspace.uz" url="http://web4.webspace.uz">
+        <fileTransfer host="web4.webspace.uz" port="21" rootFolder="/domains/online.tsul.uz/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
