@@ -14324,3 +14324,26 @@
 #42 C:\\OSPanel\\domains\\laravel\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
 #43 {main}
 "} 
+[2020-07-23 20:30:45] production.ERROR: file_get_contents(C:\OSPanel\domains\laravel1\.env): failed to open stream: No such file or directory {"exception":"[object] (ErrorException(code: 0): file_get_contents(C:\\OSPanel\\domains\\laravel1\\.env): failed to open stream: No such file or directory at C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php:96)
+[stacktrace]
+#0 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_get_conten...', 'C:\\\\OSPanel\\\\doma...', 96, Array)
+#1 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(96): file_get_contents('C:\\\\OSPanel\\\\doma...')
+#2 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(80): Illuminate\\Foundation\\Console\\KeyGenerateCommand->writeNewEnvironmentFileWith('base64:aIAbR5Kx...')
+#3 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\KeyGenerateCommand.php(45): Illuminate\\Foundation\\Console\\KeyGenerateCommand->setKeyInEnvironmentFile('base64:aIAbR5Kx...')
+#4 [internal function]: Illuminate\\Foundation\\Console\\KeyGenerateCommand->handle()
+#5 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(32): call_user_func_array(Array, Array)
+#6 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php(36): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(90): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#8 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(34): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#9 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(590): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#10 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(134): Illuminate\\Container\\Container->call(Array)
+#11 C:\\OSPanel\\domains\\laravel1\\vendor\\symfony\\console\\Command\\Command.php(255): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#12 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#13 C:\\OSPanel\\domains\\laravel1\\vendor\\symfony\\console\\Application.php(1012): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 C:\\OSPanel\\domains\\laravel1\\vendor\\symfony\\console\\Application.php(272): Symfony\\Component\\Console\\Application->doRunCommand(Object(Illuminate\\Foundation\\Console\\KeyGenerateCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#15 C:\\OSPanel\\domains\\laravel1\\vendor\\symfony\\console\\Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#16 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#17 C:\\OSPanel\\domains\\laravel1\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(131): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#18 C:\\OSPanel\\domains\\laravel1\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#19 {main}
+"} 
